@@ -49,5 +49,5 @@ level_list = [5,4,8,11,None,13,4,7,2,None,None,5,1]
 target = 22
 root = Build_Tree(level_list)
 sol = Solution()
-result = sol.pathSum(root,target)
-print(result)
+resul = sol.pathSum(root,target)
+print(resul)
