@@ -43,5 +43,5 @@ def Build_Tree(level_list):
 sol = Solution()
 level_list = [3,9,20,None,None,15,7]
 root = Build_Tree(level_list)
-result = sol.maxDepth(root)
-print(result)
+results = sol.maxDepth(root)
+print(results)
