@@ -17,5 +17,5 @@ class Solution(object):
         return res
 sol = Solution()
 n = 13
-res = sol.countDigitOne(n)
-print(res)
+result = sol.countDigitOne(n)
+print(result)
