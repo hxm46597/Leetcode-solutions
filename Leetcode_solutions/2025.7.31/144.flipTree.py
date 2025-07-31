@@ -66,5 +66,5 @@ sol = Solution()
 level_list = [5,7,9,8,3,2,4]
 root = Build_Tree(level_list)
 res = sol.flipTree(root)
-result = tree_to_level_order(res)
-print(result)
+results = tree_to_level_order(res)
+print(results)
