@@ -13,5 +13,5 @@ class Solution(object):
 
 target = 5
 sol = Solution()
-res = sol.mechanicalAccumulator(target)
-print(res)
+result = sol.mechanicalAccumulator(target)
+print(result)
