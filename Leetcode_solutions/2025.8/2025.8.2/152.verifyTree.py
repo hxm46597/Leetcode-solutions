@@ -1,0 +1,19 @@
+class Solution(object):
+    def verifyTreeOrder(self, postorder):
+        """
+        :type postorder: List[int]
+        :rtype: bool
+        """
+        def recur(i, j):
+            if i >= j: return True
+            p = i
+            while postorder[p] < postorder[j]: p += 1
+            m = p
+            while postorder[p] > postorder[j]: p += 1
+            return p == j and recur(i, m - 1) and recur(m, j - 1)
+
+        return recur(0, len(postorder) - 1)
+postorder = [4,6,5,9,8]
+sol = Solution()
+res = sol.verifyTreeOrder(postorder)
+print(res)
