@@ -9,5 +9,5 @@ class Solution(object):
         return max(sales)
 sol = Solution()
 sales = [-2,1,-3,4,-1,2,1,-5,4]
-res = sol.maxSales(sales)
-print(res)
+result = sol.maxSales(sales)
+print(result)
